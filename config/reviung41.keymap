@@ -33,6 +33,8 @@
 &kp LSHFT     &kp LG(Z) &kp LG(X)     &kp LG(C)    &kp LG(V) &kp B       &kp N &kp LG(BSPC)  &kp COMMA &kp LG(DEL)   &kp FSLH &kp RET
                                  &trans      &trans    &trans  &mo 4    &trans
                         >;
+                 };
+                
                 mouse_layer {
 // -----------------------------------------------------------------------------------------
 
