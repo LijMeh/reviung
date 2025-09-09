@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50    // default: 10
 
 #include <dt-bindings/zmk/pointing.h>
 
@@ -41,17 +41,6 @@
                         >;
                  };
                 
-                mouse_layer {
-// -----------------------------------------------------------------------------------------
-
-                        bindings = <
-&trans &trans &trans &trans &msc SCRL_UP &trans &trans &trans &mmv MOVE_UP &trans &trans &trans
-&trans &trans &trans &mkp MB2 &mkp MB1 &trans &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &trans
-&trans &trans &trans &trans &msc SCRL_DOWN &trans &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans
-                        >;
-                };
-
                 second_layer {
 // -----------------------------------------------------------------------------------------
 
@@ -71,6 +60,17 @@
 &mt LCTRL RET &kp A &kp S &kp D &kp F &kp G             &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
 &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2   &bt BT_SEL 3   &trans &trans                 &trans &trans &trans &kp LBRC &kp RBRC &kp RET
                                                              &trans      &trans       &trans        &trans      &trans
+                        >;
+                };
+
+                mouse_layer {
+// -----------------------------------------------------------------------------------------
+
+                        bindings = <
+&trans &trans &trans &trans &msc SCRL_UP &trans &trans &trans &mmv MOVE_UP &trans &trans &trans
+&trans &trans &trans &mkp MB2 &mkp MB1 &trans &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &trans
+&trans &trans &trans &trans &msc SCRL_DOWN &trans &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans
                         >;
                 };
         };
