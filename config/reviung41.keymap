@@ -31,7 +31,7 @@
 &kp ESC  &kp Q &kp LG(W) &kp RA(BSPC) &kp LG(R) &kp LG(T)   &kp Y &kp RA(LEFT)  &kp UP    &kp RA(RIGHT) &kp P    &kp BSLH
 &mt LCTRL RET &kp A &kp LG(S) &kp BSPC     &kp DEL   &kp RA(DEL) &kp H &kp LEFT      &kp DOWN  &kp RIGHT     &kp RET &kp SQT
 &kp LSHFT     &kp LG(Z) &kp LG(X)     &kp LG(C)    &kp LG(V) &kp B       &kp N &kp LG(BSPC)  &kp COMMA &kp LG(DEL)   &kp FSLH &kp RET
-                                 &trans      &trans    &trans  &mo 4    &trans
+                                 &trans   &mo 4   &trans    &trans     &trans
                         >;
                  };
                 
