@@ -39,10 +39,10 @@
 // -----------------------------------------------------------------------------------------
 
                         bindings = <
-&trans &trans &trans &trans &trans &trans   &trans &trans &kp MS_UP &trans &trans &trans
-&trans &kp MS_ACCEL &trans &kp MS_BTN2 &kp MS_BTN1 &trans   &trans &kp MS_LEFT &kp MS_DOWN &kp MS_RIGHT &trans &trans
-&trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-                                &trans      &trans       &trans        &trans      &trans
+&trans &trans &trans &trans &mkp SCRL_UP &trans &trans &trans &mkp MOVE_UP &trans &trans &trans
+&trans &mkp ACCEL &trans &mkp MB2 &mkp MB1 &trans &trans &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT &trans &trans
+&trans &trans &trans &trans &mkp SCRL_DOWN &trans &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans
                         >;
                 };
 
